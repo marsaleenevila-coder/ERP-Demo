@@ -1,5 +1,7 @@
 import database
 
+print("Welcome to Employee Module")
+
 employees = database.get_all_employees()
 employees=database.load_employees()
 
